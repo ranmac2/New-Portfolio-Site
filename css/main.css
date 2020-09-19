@@ -15,6 +15,14 @@
     font-size: 1em;
     line-height: 1.4;
   }
+
+  footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    clear: both;
+  }
   
 /*
  * Remove text-shadow in selection highlight:
@@ -239,6 +247,8 @@ textarea {
   .project-image a:hover {
     
   }
+
+  /************************ CONTACT PAGE ************************/
 
 /* ==========================================================================
    Helper classes
