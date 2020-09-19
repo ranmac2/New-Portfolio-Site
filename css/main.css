@@ -10,18 +10,49 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-   html {
+  body {
+    background: url("../img/forest-background.jpg");
+    background-size: cover;
+  }
+  
+  html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
   }
 
-  footer {
+  main {
+    height: auto;
+    min-height: 100%;
+  }
+
+  header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header img {
+    height: 75px;
+    width: 75px;
+    padding: 10px 0 0 10px;
+  }
+
+  nav {
+    float: right;
+    margin-right: 35px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    clear: both;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
   }
   
 /*
@@ -104,40 +135,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  body {
-    background: url("../img/forest-background.jpg");
-    background-size: cover;
-  }
-
-  header {
-    height: 85px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  header img {
-    height: 75px;
-    width: 75px;
-    padding: 10px 0 0 10px;
-  }
-
-  nav {
-    float: right;
-    margin-right: 35px;
-  }
-  
-  nav ul li {
-    display: inline;
-  }
-
-  nav ul li a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px;
-  }
-
+  /************************ HOME PAGE ************************/
   #title {
     text-align: center;
     font-family: 'Lobster Two', cursive;
@@ -170,6 +168,17 @@ textarea {
 
   #title-button a:hover {
     color: rgb(243, 84, 11);
+  }
+
+  #home-footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
   }
 
   /************************ ABOUT PAGE ************************/
@@ -210,6 +219,17 @@ textarea {
     float: right;
   }
 
+  #about-footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    }
+
   /************************ PORTFOLIO PAGE ************************/
 
   .portfolio-title {
@@ -247,6 +267,17 @@ textarea {
   .project-image a:hover {
     
   }
+
+  #portfolio-footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    }
 
   /************************ CONTACT PAGE ************************/
 
