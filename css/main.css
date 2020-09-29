@@ -280,7 +280,40 @@ textarea {
     }
 
   /************************ CONTACT PAGE ************************/
+  #contact-title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    color: rgb(243, 84, 11);
+    text-align: center;
+  }
 
+  .contact-form {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 300px;
+  }
+
+  .info {
+    width: 250px;
+    margin-bottom: 10px;
+    border: solid rgb(243, 84, 11) 1px;
+  }
+  
+  .message {
+    width: 252px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    border: solid rgb(243, 84, 11) 1px;
+  }
+
+  .submit {
+    width: 258px;
+    border: solid rgb(243, 84, 11) 1px;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */

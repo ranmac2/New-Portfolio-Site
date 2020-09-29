@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Randy MacLean | Contact</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,8 +11,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lobster+Two:ital,wght@1,700&family=Roboto&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -23,7 +25,53 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <a href="../index.html"><img src="../img/logo-2.png" alt="logo"/></a>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../about/index.html">About</a>
+        </li>
+        <li>
+          <a href="../portfolio/index.html">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="contact-title">
+      <h1>Let's Connect</h1>
+    </div>
+    <div>
+      <form class="contact-form" action="contact-form-handler.php" method="POST">
+        <input class="info" type="text" name="name" placeholder="Your Name" />
+        <br>
+        <input class="info" type="text" name="mail" placeholder="Your Email" />
+        <br>
+        <input class="info" type="text" name="subject" placeholder="Subject" />
+        <br>
+        <textarea class="message" name="message" placeholder="Message"></textarea>
+        <br>
+        <button class="submit" type="submit" name="submit">SEND MAIL</button>
+      </form>
+    </div>
+  </main>
+
+  <footer id="about-footer">
+    <p>Copyright 2020 | Randy MacLean</p>
+  </footer>
+
+
+
+
+
+
+
+
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
