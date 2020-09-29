@@ -281,7 +281,7 @@ textarea {
     height: 100%;
     transform: scale(0);
     transition: 0.3s ease;
-    opacity: 85%;
+    opacity: 90%;
   }
 
   .project:hover .overlay {
@@ -290,7 +290,7 @@ textarea {
 
   .text {
     color: rgb(243, 84, 11);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lobster Two', cursive;
     font-size: 20px;
     position: absolute;
     top: 50%;
