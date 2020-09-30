@@ -46,22 +46,38 @@
     <div id="contact-title">
       <h1>Let's Connect</h1>
     </div>
-    <div>
-      <form class="contact-form" action="contact-form-handler.php" method="POST">
-        <input class="info" type="text" name="name" placeholder="Your Name" />
-        <br>
-        <input class="info" type="text" name="mail" placeholder="Your Email" />
-        <br>
-        <input class="info" type="text" name="subject" placeholder="Subject" />
-        <br>
-        <textarea class="message" name="message" placeholder="Message"></textarea>
-        <br>
-        <button class="submit" type="submit" name="submit">SEND MAIL</button>
-      </form>
-    </div>
+    <div id="contact-info">
+      <div class="form">
+        <div class="form-header">
+          <h2>Shoot me an e-mail!</h2>
+        </div>
+        <div>
+          <form class="contact-form" action="contact-form-handler.php" method="POST">
+            <input class="info" type="text" name="name" placeholder="Your Name" />
+            <br>
+            <input class="info" type="text" name="mail" placeholder="Your Email" />
+            <br>
+            <input class="info" type="text" name="subject" placeholder="Subject" />
+            <br>
+            <textarea class="message" name="message" placeholder="Message"></textarea>
+            <br>
+            <button class="submit" type="submit" name="submit">SEND MAIL</button>
+          </form>
+        </div>
+      </div>
+      <div class="social-media">
+        <div class="socialmedia-header">
+          <h2>Check out my profiles!</h2>
+        </div>
+        <div class="socialmedia-icons">
+          <a href="https://www.github.com/ranmac2" target="_BLANK"><img src="../img/github-logo.png" alt="github logo" /></a>
+          <a href="https://www.linkedin.com/in/randall-maclean-4964621a3/" target="_BLANK"><img src="../img/linkedin-logo.png" alt="linkedin logo" /></a>
+        </div>
+      </div>
+      </div>
   </main>
 
-  <footer id="about-footer">
+  <footer id="contact-footer">
     <p>Copyright 2020 | Randy MacLean</p>
   </footer>
 
