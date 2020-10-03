@@ -571,6 +571,21 @@ textarea {
   }
 
   /************************ CONTACT PAGE ************************/
+  #contact-info {
+    flex-flow: row wrap;
+  }
+
+  .social-media {
+    padding-right: 0;
+  }
+
+  .socialmedia-header {
+    padding-top: 25px;
+  }
+
+  .socialmedia-icons img {
+    margin-top: 10px;
+  }
 }
 
 @media print,
