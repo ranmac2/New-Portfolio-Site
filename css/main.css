@@ -530,6 +530,47 @@ textarea {
     padding-bottom: 50px;
     margin-right: 0 auto;
   }
+
+  /************************ ABOUT PAGE ************************/
+  #about-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-heading {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-subheading {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-description {
+    padding-right: 30px;
+  }
+
+  .profile-image img {
+    padding-right: 0;
+    float: none;
+    width: 90%;
+    height: 90%;
+    padding-left: 15px;
+  }
+
+  #about-footer {
+    position: relative;
+    top: 12px;
+    padding-bottom: 5px;
+  }
+
+  /************************ PORTFOLIO PAGE ************************/
+  .portfolio-description {
+    padding: 0;
+  }
+
+  /************************ CONTACT PAGE ************************/
 }
 
 @media print,
