@@ -588,6 +588,96 @@ textarea {
   }
 }
 
+@media only screen and (max-width: 414px) {
+  /************************ HOME PAGE ************************/
+
+  #title {
+    font-size: 45px;
+    padding: 20px;
+  }
+
+  .title-description {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  #title-button {
+    width: 200px;
+  }
+  
+  #title-button a {
+    font-size: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  #home-footer {
+    position: relative;
+    padding-top: 50px;
+    margin-right: 0 auto;
+  }
+
+    /************************ ABOUT PAGE ************************/
+    #about-text {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .about-heading {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .about-subheading {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .about-description {
+      padding-right: 30px;
+    }
+  
+    .profile-image img {
+      padding-right: 0;
+      float: none;
+      width: 90%;
+      height: 90%;
+      padding-left: 15px;
+    }
+  
+    #about-footer {
+      position: relative;
+      top: 12px;
+      padding-bottom: 5px;
+    }
+  
+    /************************ PORTFOLIO PAGE ************************/
+    .portfolio-description {
+      padding: 0;
+    }
+
+ /************************ CONTACT PAGE ************************/
+ #contact-info {
+  flex-flow: row wrap;
+}
+
+.social-media {
+  padding-right: 0;
+}
+
+.socialmedia-header {
+  padding-top: 25px;
+}
+
+.socialmedia-icons img {
+  margin-top: 10px;
+}
+}
+
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
